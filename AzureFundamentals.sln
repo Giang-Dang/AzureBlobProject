@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34018.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureBlobProject", "AzureBlobProject\AzureBlobProject.csproj", "{A62B51B4-E659-48FE-A5D3-91DF431A6F12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureFunctionTangyWeb", "AzureFunctionTangyWeb\AzureFunctionTangyWeb.csproj", "{CA4CFDDA-9BFD-4F02-940D-D8C58F105998}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AzureFunctionExample", "AzureFunctionExample", "{6247D619-DDD9-4CF2-8DC3-F5706E936A75}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AzureBlobExample", "AzureBlobExample", "{0B9647C8-1E70-436A-A10A-300A51815E85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A62B51B4-E659-48FE-A5D3-91DF431A6F12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A62B51B4-E659-48FE-A5D3-91DF431A6F12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A62B51B4-E659-48FE-A5D3-91DF431A6F12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A62B51B4-E659-48FE-A5D3-91DF431A6F12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA4CFDDA-9BFD-4F02-940D-D8C58F105998}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA4CFDDA-9BFD-4F02-940D-D8C58F105998}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA4CFDDA-9BFD-4F02-940D-D8C58F105998}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA4CFDDA-9BFD-4F02-940D-D8C58F105998}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A62B51B4-E659-48FE-A5D3-91DF431A6F12} = {0B9647C8-1E70-436A-A10A-300A51815E85}
+		{CA4CFDDA-9BFD-4F02-940D-D8C58F105998} = {6247D619-DDD9-4CF2-8DC3-F5706E936A75}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B250F5EE-F27C-402B-B389-78250CFDCA39}
+	EndGlobalSection
+EndGlobal
