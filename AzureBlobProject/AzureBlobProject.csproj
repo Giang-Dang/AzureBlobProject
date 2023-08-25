@@ -7,4 +7,9 @@
     <UserSecretsId>348f73d2-9ea1-430b-b078-43691133e840</UserSecretsId>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Azure.Storage.Blobs" Version="12.17.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
+  </ItemGroup>
+
 </Project>
